@@ -1,6 +1,7 @@
 # forensics
 Tools Required
-``` 1.Binwalk
+``` 
+    1.Binwalk
     2.Zsteg
     3.Ghex
     4.stegsnow
