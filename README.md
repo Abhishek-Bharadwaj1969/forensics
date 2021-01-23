@@ -8,4 +8,7 @@ Tools Required
     5.stegsolve
     6.Fcrackzip
     7.Stegdetect(To detect the steganographic content)
+    8.pngcheck
+    9.strings
+    10.exiftool
     ```
