@@ -18,6 +18,7 @@ so as we have the flag format as inctf just do ```.i.n.c.t.f``` which didn't wor
 next offset and get the flag by removing "."
 
  ``` Twins ```
- as the question suggest both should be same but we can find difference using a python package ``` filecmp`` or some bash ```diff``` and can find that "binary files differ"
+ as the question suggest both should be same but we can find difference using a python package ``` filecmp``` or some bash ```diff``` and can find that "binary files differ"
  so use the command ```diff   <(xxd Twin1) <(xxd Twin2) ``` and check the values where hex-dump is present 
+ ![terminal]()
  
