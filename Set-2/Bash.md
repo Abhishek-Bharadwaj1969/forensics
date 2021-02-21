@@ -20,5 +20,6 @@ next offset and get the flag by removing "."
  ``` Twins ```
  as the question suggest both should be same but we can find difference using a python package ``` filecmp``` or some bash ```diff``` and can find that "binary files differ"
  so use the command ```diff   <(xxd Twin1) <(xxd Twin2) ``` and check the values where hex-dump is present 
- ![terminal](https://github.com/abhishekbharawaj/forensics/blob/main/pictures/Screenshot%20from%202021-02-22%2001-24-43.png)
+ ![terminal](https://github.com/abhishekbharawaj/forensics/blob/main/pictures/Screenshot%20from%202021-02-22%2001-24-43.png) so if we consider the lines above hex dump each line consists of one character like i(146403c146403)... combinig all those gives flag
+ 
  
