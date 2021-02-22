@@ -37,5 +37,25 @@ do
 	done
 	echo;
 done
+``` LOOP 2``` 
+num=6;
+ 
+for((i=1; i<=num; i++))
+do
+    for((j=i; j<=num; j++))
+    do
+      echo -ne " ";
+    done
+     for((n=1; n<=i; n++))
+    do
+      echo -ne "#";
+    done
+    for((k=1; k<i; k++))
+    do
+      echo -ne "#";
+    done
+ 
+   echo;
+done
 
 
