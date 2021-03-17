@@ -1,6 +1,8 @@
 Kevin sent me a file with some hidden message. Help me recover this secret from this bizzare network.
 so we were given with a pcap file and we need to extract that
 so we can better use ```scapy``` other than manual extraction
+
+
 step1: get the protocol you required 
         so we can find the whole protocols present in  pcap file using the protocol hierarchy. I tried all the protocols which of no use ecxept ```ICMP```
         so in the ICMP i found some explicit data in the ascii dump of the packet which consists of zip(hex-dump).I then gone to scapy to extract the data
